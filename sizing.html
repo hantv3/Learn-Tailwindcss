@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--
+  1 rem = document base font
+  mặt định một font là 16px, vậy nên một 1rem = 16px.
+  1 rem = 4 in Tailwindcss.
+  16px = 1 rem = 4 in Tailwindcss
+  ví dụ với 16px chiều rộng = .w-4 (width="16px")
+  1.25 rem = 5 in Tailwindcss (20px)
+  -->
+
+  <!-- WIDTH & HEIHT
+      .{w|h}-{size}
+
+  Sizes
+  0, 1, 2, 3, 4, 5, 6     +1
+  8, 10, 12               +2
+  16, 20, 24              +4
+  32, 40, 48, 56, 64      +8
+
+  1/2
+  1/{3, 4, 5, 6, 12}
+
+  screen, full
+   -->
+  <div class="bg-gray-500 w-32 h-32">
+    Text
+  </div>
+  <div class="bg-blue-500 w-1/2">Text</div>
+</body>
+
+</html>
